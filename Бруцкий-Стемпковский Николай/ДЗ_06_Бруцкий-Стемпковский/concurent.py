@@ -14,6 +14,7 @@ import requests
 import shutil
 import concurrent.futures
 
+
 def saving_images(link):
 
     global path
@@ -26,7 +27,7 @@ def saving_images(link):
 
 start = time.time()
 
-file_obj = open("html.txt")
+file_obj = open("D:/Works/Teach_ME_Skills/Материалы/ДЗ_Бруцкий-Стемпковский/DS3onl/Бруцкий-Стемпковский Николай/ДЗ_06_Бруцкий-Стемпковский/html.txt")
 code = file_obj.readlines()
 file_obj.close()
 
