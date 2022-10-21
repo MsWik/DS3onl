@@ -1,4 +1,4 @@
-def region_rename(name):
+def region_rename_func(name):
     if "МОСКОВ" in name or "МЫТИЩ" in name:
         return "МОСКОВСКАЯ ОБЛАСТЬ"
     elif "МОСКВ" in name or "РОССИЯ" in name:
@@ -155,7 +155,7 @@ def region_rename(name):
         return "ТЮМЕНСКАЯ ОБЛАСТЬ"
     elif "УЛЬЯ" in name:
         return "УЛЬЯНОВСКАЯ ОБЛАСТЬ"
-    elif "ЧЕЛЯБ" in name or  "74" in name:
+    elif "ЧЕЛЯБ" in name or "74" in name:
         return "ЧЕЛЯБИНСКАЯ ОБЛАСТЬ"
     elif "БАЙКАЛ" in name:
         return "ЗАБАЙКАЛЬСКИЙ КРАЙ"
