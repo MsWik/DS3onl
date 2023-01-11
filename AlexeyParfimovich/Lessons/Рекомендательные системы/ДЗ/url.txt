@@ -1,5 +1,0 @@
-ДЗ - построение ассоциативных правил для датасета :
-Можно использовать например association_rules, fpgrowth из mlxtend.frequent_patterns
-
-
-https://www.kaggle.com/datasets/gorkhachatryan01/purchase-behaviour?select=dataset.csv
