@@ -1,0 +1,17 @@
+https://habr.com/ru/company/prequel/blog/567648/  
+https://habr.com/ru/company/prequel/blog/573880/
+
+рекомендательные системы
+
+Правила ассоциации
+
+https://medium.com/analytics-vidhya/association-analysis-in-python-2b955d0180c
+http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/apriori/
+ про 
+from mlxtend.frequent_patterns import apriori
+
+
+https://towardsdatascience.com/how-you-can-build-simple-recommender-systems-with-surprise-b0d32a8e4802
+https://github.com/microsoft/recommenders/blob/main/examples/02_model_collaborative_filtering/surprise_svd_deep_dive.ipynb
+
+from surprise import Reader, Dataset, SVD
