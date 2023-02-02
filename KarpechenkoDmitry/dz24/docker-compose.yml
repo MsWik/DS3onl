@@ -1,0 +1,12 @@
+version: '3'
+services:
+  flask:
+    build:
+      container_name: flasktest
+    environment:
+    - FLASK_ENV=development
+    - PYTHONUNBUFFERED=True
+    restart: on-failure
+    volumes:
+      - '5000:5000'
+    command: python main.py
