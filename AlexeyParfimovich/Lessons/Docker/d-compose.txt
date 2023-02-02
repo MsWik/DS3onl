@@ -1,0 +1,7 @@
+1)- поднять контейнер 
+cd /var/www/newapp && docker-compose up -d –build 
+2) – убить процесс 
+cd /var/www/newapp && docker-compose down
+docker images
+docker rmi 105da12394b3        --force
+105da12394b3        - хэш имя контейнера 
