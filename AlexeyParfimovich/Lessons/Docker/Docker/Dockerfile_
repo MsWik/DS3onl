@@ -1,2 +1,0 @@
-FROM ubuntu:bionic
-EXPOSE 5000
